@@ -4,13 +4,27 @@ import LinkedInIcon from './incos/LinkedInIcon';
 import TelegramIcon from './incos/TelegramIcon';
 import GitHubIcon from './incos/GitHubIcon';
 import Typography from '@mui/material/Typography';
+import MailLetterIcon from './incos/MailLeterIcon';
 import './footer.scss';
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="logo-container">
-        <VideogameAssetIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, color: 'white' }} />
+        <VideogameAssetIcon
+          sx={{
+            display: {
+              '@media (max-width: 899px)': {
+                fontSize: '50px',
+                width: '50px',
+                md: 'flex',
+              },
+              mr: 1,
+              color: 'white',
+              marginRight: '8px',
+            },
+          }}
+        />
 
         <Typography
           variant="h6"
@@ -62,6 +76,15 @@ const Footer = () => {
               href="https://djinni.co/q/4c8217d37b/"
             >
               Dj.
+            </a>
+          </li>
+          <li className="links-list__item">
+            <a
+              className="links-list__item-link"
+              target="_blanck"
+              href="mailto:romanbs.wo@gmail.com"
+            >
+              <MailLetterIcon />
             </a>
           </li>
         </ul>

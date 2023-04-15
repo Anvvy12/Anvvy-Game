@@ -11,10 +11,10 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import { ThemeProvider } from '@mui/material';
 import VideogameAssetIcon from '@mui/icons-material/VideogameAsset';
 import theme from './theme';
+import '../header.scss';
 
 const pages = ['News', 'Video', 'Blog'];
 const settings = ['Profile', 'Account', 'My articles', 'Logout'];
@@ -48,6 +48,7 @@ function ResponsiveAppBar() {
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <VideogameAssetIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+
             <Typography
               variant="h6"
               component="a"
