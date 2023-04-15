@@ -1,15 +1,13 @@
-# Airport
+# Anvvy-Game
 
-This layout only supports 1440px width
+This my pat project with games news, posts and video
+You can login on my web-app, you cant write your post
 
 ## Tech stack
 
 - React.js
-- React-router
-- React Hooks
-- React-Redux
 - Redux
-- Redux-thunk
+- Material MUI
 - webpack
 - HTML5
 - CSS3
@@ -27,5 +25,3 @@ This layout only supports 1440px width
 - youbody7@gmail.com
 
 ### Web page
-
-- https://anvvy12.github.io/Airport/
