@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "rules": { "react/jsx-filename-extension": [0] }
+    // "react/jsx-filename-extension": [
+    //   1,
+    //   {
+    //     "extensions": [".js", ".jsx"],
+    //     "quotes": [1, "double"]
+    //   }
+    // ]
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2020
+  },
+  "parser": "@babel/eslint-parser"
+}

@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  padding: 0 24px;
+  height: 200px;
+  justify-content: space-between;
+}
+
+.logo-container {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+.links-container {
+}
+
+.links-list {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+
+  &__item {
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 14px;
+    color: #fff;
+  }
+  &__item + &__item {
+    margin-left: 20px;
+  }
+
+  &__item-link {
+    display: block;
+    height: 25px;
+    width: 25px;
+  }
+}
