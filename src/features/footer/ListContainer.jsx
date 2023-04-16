@@ -28,7 +28,7 @@ const ListContainer = () => {
           </a>
         </li>
         <li className="links-list__item">
-          <a className="links-list__item-link">
+          <a className="links-list__item-link" target="_blanck" href="https://github.com/Anvvy12">
             <GitHubIcon />
           </a>
         </li>
