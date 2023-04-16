@@ -1,10 +1,8 @@
 import React from 'react';
 import VideogameAssetIcon from '@mui/icons-material/VideogameAsset';
-import LinkedInIcon from './incos/LinkedInIcon';
-import TelegramIcon from './incos/TelegramIcon';
-import GitHubIcon from './incos/GitHubIcon';
+import ListContainer from './ListContainer';
 import Typography from '@mui/material/Typography';
-import MailLetterIcon from './incos/MailLeterIcon';
+
 import './footer.scss';
 
 const Footer = () => {
@@ -44,51 +42,7 @@ const Footer = () => {
           Anvvy-Game
         </Typography>
       </div>
-      <div className="links-container">
-        <ul className="links-list">
-          <li className="links-list__item">
-            <a
-              className="links-list__item-link"
-              target="_blanck"
-              href="https://www.linkedin.com/in/bogdan-roman-b498b924b/"
-            >
-              <LinkedInIcon />
-            </a>
-          </li>
-          <li className="links-list__item">
-            <a
-              className="links-list__item-link"
-              target="_blanck"
-              href="https://t.me/@Anvvy?start=unique-id"
-            >
-              <TelegramIcon />
-            </a>
-          </li>
-          <li className="links-list__item">
-            <a className="links-list__item-link">
-              <GitHubIcon />
-            </a>
-          </li>
-          <li className="links-list__item">
-            <a
-              className="links-list__item-link"
-              target="_blanck"
-              href="https://djinni.co/q/4c8217d37b/"
-            >
-              Dj.
-            </a>
-          </li>
-          <li className="links-list__item">
-            <a
-              className="links-list__item-link"
-              target="_blanck"
-              href="mailto:romanbs.wo@gmail.com"
-            >
-              <MailLetterIcon />
-            </a>
-          </li>
-        </ul>
-      </div>
+      <ListContainer />
     </footer>
   );
 };
