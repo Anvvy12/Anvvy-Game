@@ -1,4 +1,4 @@
-# Anvvy-Game
+# AnvvyGame
 
 This my pat project with games news, posts and video
 You can login on my web-app, you cant write your post

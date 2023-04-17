@@ -33,7 +33,7 @@ const MailLetterIcon = () => {
           fillRule="nonzero"
           opacity="1"
           transform=" matrix(1 0 0 1 0 0) "
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M 11.044 25.917 C 21.848 36.445 32.652 46.972 43.456 57.5 c 2.014 1.962 5.105 -1.122 3.088 -3.088 C 35.74 43.885 24.936 33.357 14.132 22.83 C 12.118 20.867 9.027 23.952 11.044 25.917 L 11.044 25.917 z"
@@ -47,7 +47,7 @@ const MailLetterIcon = () => {
           fillRule="nonzero"
           opacity="1"
           transform=" matrix(1 0 0 1 0 0) "
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M 46.544 57.5 c 10.804 -10.527 21.608 -21.055 32.412 -31.582 c 2.016 -1.965 -1.073 -5.051 -3.088 -3.088 C 65.064 33.357 54.26 43.885 43.456 54.412 C 41.44 56.377 44.529 59.463 46.544 57.5 L 46.544 57.5 z"
@@ -61,7 +61,7 @@ const MailLetterIcon = () => {
           fillRule="nonzero"
           opacity="1"
           transform=" matrix(1 0 0 1 0 0) "
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M 78.837 64.952 c -7.189 -6.818 -14.379 -13.635 -21.568 -20.453 c -2.039 -1.933 -5.132 1.149 -3.088 3.088 c 7.189 6.818 14.379 13.635 21.568 20.453 C 77.788 69.973 80.881 66.89 78.837 64.952 L 78.837 64.952 z"
@@ -75,7 +75,7 @@ const MailLetterIcon = () => {
           fillRule="nonzero"
           opacity="1"
           transform=" matrix(1 0 0 1 0 0) "
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
         <path
           d="M 14.446 68.039 c 7.189 -6.818 14.379 -13.635 21.568 -20.453 c 2.043 -1.938 -1.048 -5.022 -3.088 -3.088 c -7.189 6.818 -14.379 13.635 -21.568 20.453 C 9.315 66.889 12.406 69.974 14.446 68.039 L 14.446 68.039 z"
@@ -89,7 +89,7 @@ const MailLetterIcon = () => {
           fillRule="nonzero"
           opacity="1"
           transform=" matrix(1 0 0 1 0 0) "
-          stroke-linecap="round"
+          strokeLinecap="round"
         />
       </g>
     </svg>

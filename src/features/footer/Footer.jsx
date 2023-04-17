@@ -39,7 +39,7 @@ const Footer = () => {
             textDecoration: 'none',
           }}
         >
-          Anvvy-Game
+          AnvvyGame
         </Typography>
       </div>
       <ListContainer />
