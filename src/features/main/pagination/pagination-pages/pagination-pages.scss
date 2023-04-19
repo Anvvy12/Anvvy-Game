@@ -1,0 +1,48 @@
+.pages-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pages-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+
+  &__item {
+    color: #ffffff;
+    cursor: pointer;
+    margin: 0 3px;
+    padding: 0;
+    transition: all 0.2s ease-in-out;
+    border-radius: 50%;
+    background-color: #323131;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__item:hover {
+    background-color: #6c6d6f;
+  }
+}
+
+.active {
+  background-color: #fff;
+  color: #000;
+}
+
+.page-number {
+  position: relative;
+  line-height: 20px;
+  top: 0.2px;
+  right: 0.1px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}

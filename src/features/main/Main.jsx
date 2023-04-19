@@ -1,8 +1,8 @@
 import React from 'react';
-import Pagination from './pagination/Pagination';
+import PaginationSection from './pagination/pagination-container/PaginationSection';
 
 const Main = () => {
-  return <Pagination />;
+  return <PaginationSection />;
 };
 
 export default Main;
