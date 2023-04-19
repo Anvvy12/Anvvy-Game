@@ -1,7 +1,8 @@
 import React from 'react';
+import Pagination from './pagination/Pagination';
 
 const Main = () => {
-  return null;
+  return <Pagination />;
 };
 
 export default Main;

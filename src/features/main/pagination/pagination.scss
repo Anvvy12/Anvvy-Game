@@ -1,0 +1,28 @@
+.pagination {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.pagination li {
+  color: #ffffff;
+  cursor: pointer;
+  margin: 0 3px;
+  padding: 6px 12px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 50%;
+  background-color: #323131;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.pagination li:hover {
+  background-color: #6c6d6f;
+}
+
+.pagination li.active {
+  background-color: #d5d5d6;
+  color: #000000;
+}
