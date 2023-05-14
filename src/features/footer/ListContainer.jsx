@@ -6,6 +6,9 @@ import TelegramIcon from './incos/TelegramIcon';
 import GitHubIcon from './incos/GitHubIcon';
 
 const ListContainer = () => {
+  const handleTelegramClick = () => {
+    window.open('tg://resolve?domain=Anvvy', '_blank');
+  };
   return (
     <div className="links-container">
       <ul className="links-list">
@@ -19,11 +22,7 @@ const ListContainer = () => {
           </a>
         </li>
         <li className="links-list__item">
-          <a
-            className="links-list__item-link"
-            target="_blanck"
-            href="https://t.me/@Anvvy?start=unique-id"
-          >
+          <a onClick={handleTelegramClick} className="links-list__item-link">
             <TelegramIcon />
           </a>
         </li>
